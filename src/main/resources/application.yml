@@ -1,0 +1,11 @@
+server:
+  port: 9595
+
+spring:
+  application:
+    name: NotificationService
+
+  kafka:
+    bootstrap-servers: localhost:29092
+    topic: transaction
+
